@@ -1,0 +1,72 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(104, 103, 103);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+html { 
+  background: url(../images/applebigsur.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  .list-inline li {
+    display: inline;
+    padding: 10px;
+    font-size: 40px;
+  }
+  
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .list-inline a {
+    color:#3D39D0;
+  }
+  
+  .list-inline a :hover {
+    color:#3e39d0c2;
+  }
+
+  footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
